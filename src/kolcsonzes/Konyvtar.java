@@ -16,8 +16,8 @@ public class Konyvtar {
         }
     }
     public void felvesz(){
-       konyv[0] += new ErtekesKonyv("gomboc", 1500);
-       konyv[1] += new OlcsoKonyv("korte", 1000, true);
+       konyv[0] = new ErtekesKonyv("gomboc", 1500);
+       konyv[1] = new OlcsoKonyv(true, "nev", 1500);
 
 }
 }
