@@ -10,7 +10,7 @@ public class Konyvtar {
     
     public void kolcsonzheto(){
         for (int i = 0; i < konyv.length; i++) {
-           if(konyv[i].isAllapot){
+           if(konyv[i] instanceof konyv){
                System.out.println(konyv[i].toString());
            }
         }
