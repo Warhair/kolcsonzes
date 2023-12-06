@@ -20,5 +20,27 @@ public abstract class AbstractTermek {
     public String toString() {
         return "AbstractTermek{" + "id=" + id + ", nev=" + nev + ", ar=" + ar + '}';
     } 
+
+    public UUID getId() {
+        return id;
+    }
+
+    public String getNev() {
+        return nev;
+    }
+
+    public int getAr() {
+        return ar;
+    }
+
+    public void setNev(String nev) {
+        this.nev = nev;
+    }
+
+    public void setAr(int ar) {
+        this.ar = ar;
+    }
+    
+    
    
 }
